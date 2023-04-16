@@ -1,15 +1,11 @@
-## Hi there 👋
+![Melawy Linux](/profile/Melawy_Linux_640x320.svg)
 
-<!--
+Melawy Linux - это как независимая разработка программ и оформления, так и замствование интересных идей. 
 
-**Here are some ideas to get you started:**
+Продукт является открытым программным обеспечением со свободной лицензией. 
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Melawy Linux использует в качестве основы Arch Linux, сборку через ArchISO, установку через Calamares. 
 
-![Melawy Linux](/profile/Melawy Linux.svg)
-![Melawy Linux](/profile/Melawy-Linux.svg)
+Продукт нацелен на сегмент ПК и ноутбуков. 
+
+Melawy приглашает энтузиастов для совместной разработки, тестирования программ и оформления. 
