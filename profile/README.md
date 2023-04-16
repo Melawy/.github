@@ -10,6 +10,24 @@ Melawy Linux - это как независимая разработка про�
 
 ---
 
+[![Watch video](https://i3.ytimg.com/vi/gV-4n7IcDdc/maxresdefault.jpg)](https://www.youtube.com/watch?v=gV-4n7IcDdc)
+
+---
+
+![](/profile/01.jpg)
+![](/profile/02.jpg)
+![](/profile/03.jpg)
+![](/profile/04.jpg)
+![](/profile/05.jpg)
+![](/profile/06.jpg)
+![](/profile/07.jpg)
+![](/profile/08.jpg)
+![](/profile/09.jpg)
+![](/profile/10.jpg)
+![](/profile/11.jpg)
+
+---
+
 Melawy Linux использует в качестве основы Arch Linux, сборку через ArchISO, установку через Calamares. 
 
 Репозитории: 
