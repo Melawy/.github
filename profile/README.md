@@ -25,6 +25,11 @@ Melawy Linux - это как независимая разработка про�
 ![](/profile/09.jpg)
 ![](/profile/10.jpg)
 ![](/profile/11.jpg)
+![](/profile/12.jpg)
+![](/profile/13.jpg)
+![](/profile/14.jpg)
+![](/profile/15.jpg)
+![](/profile/16.jpg)
 
 ---
 
