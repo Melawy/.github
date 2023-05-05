@@ -44,6 +44,11 @@ Melawy Linux использует в качестве основы Arch Linux, �
 - arcolinux_repo_xlarge
 - arcolinux_repo_3party
 - melawy
+- melawy-aur
+- melawy-aur-gui-app
+- melawy-aur-theme
+- melawy-aur-kde
+- melawy-aur-cargo
 - AUR
 
 Не используются специфичные для ArcoLinux программы и оформление.
@@ -65,7 +70,7 @@ Melawy Linux использует в качестве основы Arch Linux, �
 Пакетные менеджеры: 
 - pacman
 - pamac
-- pikaur
+- paru
 - octopi
 
 Обновление зеркал пакетов: 
