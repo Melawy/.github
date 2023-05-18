@@ -10,6 +10,53 @@ Melawy Linux - это как независимая разработка про�
 
 ---
 
+```bash
+sudo pacman-key --recv-keys 95F48000540A4DB146583A47C49B5E77FD80302D --keyserver hkps://keys.openpgp.org
+sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D
+```
+
+или
+
+```bash
+sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D --keyserver http://keyserver2.pgp.com
+sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D
+```
+
+```bash
+sudo pacman -S melawy-linux-mirrorlist
+```
+
+Добавить в /etc/pacman.conf
+
+```
+[melawy]
+SigLevel = Required DatabaseOptional
+Include = /etc/pacman.d/melawy-linux-mirrorlist
+
+[melawy-aur]
+SigLevel = Required DatabaseOptional
+Include = /etc/pacman.d/melawy-linux-mirrorlist
+
+[melawy-aur-kde]
+SigLevel = Required DatabaseOptional
+Include = /etc/pacman.d/melawy-linux-mirrorlist
+
+[melawy-aur-theme]
+SigLevel = Required DatabaseOptional
+Include = /etc/pacman.d/melawy-linux-mirrorlist
+
+[melawy-aur-gui-app]
+SigLevel = Required DatabaseOptional
+Include = /etc/pacman.d/melawy-linux-mirrorlist
+
+[melawy-aur-cargo]
+SigLevel = Required DatabaseOptional
+Include = /etc/pacman.d/melawy-linux-mirrorlist
+```
+
+---
+### Смотреть видео
+
 [![Watch video](https://i3.ytimg.com/vi/gV-4n7IcDdc/maxresdefault.jpg)](https://www.youtube.com/watch?v=gV-4n7IcDdc)
 
 ---
