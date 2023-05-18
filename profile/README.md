@@ -22,8 +22,43 @@ sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D --keyserver
 sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D
 ```
 
-```bash
-sudo pacman -S melawy-linux-mirrorlist
+вставить в /etc/pacman.d/melawy-linux-mirrorlist 
+следующее содержимое:
+
+```
+######################################################
+####                                              ####
+###       Melawy Linux Repository Mirrorlist       ###
+####                                              ####
+######################################################
+#### Entry in file /etc/pacman.conf:
+###    [melawy]
+###    SigLevel = Required DatabaseOptional
+###    Include = /etc/pacman.d/melawy-linux-mirrorlist
+###
+###    [melawy-aur]
+###    SigLevel = Required DatabaseOptional
+###    Include = /etc/pacman.d/melawy-linux-mirrorlist
+###
+###    [melawy-aur-kde]
+###    SigLevel = Required DatabaseOptional
+###    Include = /etc/pacman.d/melawy-linux-mirrorlist
+###
+###    [melawy-aur-theme]
+###    SigLevel = Required DatabaseOptional
+###    Include = /etc/pacman.d/melawy-linux-mirrorlist
+###
+###    [melawy-aur-gui-app]
+###    SigLevel = Required DatabaseOptional
+###    Include = /etc/pacman.d/melawy-linux-mirrorlist
+###
+###    [melawy-aur-cargo]
+###    SigLevel = Required DatabaseOptional
+###    Include = /etc/pacman.d/melawy-linux-mirrorlist
+###
+######################################################
+
+Server = https://github.com/Melawy/$repo-repo/raw/main/$arch/
 ```
 
 Добавить в /etc/pacman.conf
@@ -52,6 +87,10 @@ Include = /etc/pacman.d/melawy-linux-mirrorlist
 [melawy-aur-cargo]
 SigLevel = Required DatabaseOptional
 Include = /etc/pacman.d/melawy-linux-mirrorlist
+```
+
+```bash
+sudo pacman -S melawy-linux-mirrorlist melawy-linux-keyring
 ```
 
 ---
