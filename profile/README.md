@@ -10,6 +10,8 @@ Melawy Linux - это как независимая разработка про�
 
 ---
 
+Скачать и подписать ключ как доверенный
+
 ```bash
 sudo pacman-key --recv-keys 95F48000540A4DB146583A47C49B5E77FD80302D --keyserver hkps://keys.openpgp.org
 sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D
@@ -22,7 +24,7 @@ sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D --keyserver
 sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D
 ```
 
-вставить в /etc/pacman.d/melawy-linux-mirrorlist 
+Вставить в /etc/pacman.d/melawy-linux-mirrorlist 
 следующее содержимое:
 
 ```
@@ -89,8 +91,11 @@ SigLevel = Required DatabaseOptional
 Include = /etc/pacman.d/melawy-linux-mirrorlist
 ```
 
+Выполнить
+
 ```bash
-sudo pacman -S melawy-linux-mirrorlist melawy-linux-keyring
+sudo pacman -Sy
+sudo pacman -S melawy-linux-mirrorlist melawy-linux-keyring --overwrite="*"
 ```
 
 ---
