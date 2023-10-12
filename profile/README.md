@@ -1,4 +1,4 @@
-![Melawy Linux](/profile/Melawy_Linux_640x320.svg)
+![Melawy Linux](/profile/Melawy_Linux_640x320.svg?raw=true)
 
 Melawy Linux - это как независимая разработка программ и оформления, так и замствование интересных идей. 
 
@@ -93,26 +93,26 @@ sudo pacman -S melawy-linux-mirrorlist melawy-linux-keyring --overwrite="*"
 ---
 ### Смотреть видео
 
-[![Watch video](https://i3.ytimg.com/vi/gV-4n7IcDdc/maxresdefault.jpg)](https://www.youtube.com/watch?v=gV-4n7IcDdc)
+[![Watch video](https://i3.ytimg.com/vi/bRNVm1VIxbA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bRNVm1VIxbA)
 
 ---
 
-![](/profile/01.jpg)
-![](/profile/02.jpg)
-![](/profile/03.jpg)
-![](/profile/04.jpg)
-![](/profile/05.jpg)
-![](/profile/06.jpg)
-![](/profile/07.jpg)
-![](/profile/08.jpg)
-![](/profile/09.jpg)
-![](/profile/10.jpg)
-![](/profile/11.jpg)
-![](/profile/12.jpg)
-![](/profile/13.jpg)
-![](/profile/14.jpg)
-![](/profile/15.jpg)
-![](/profile/16.jpg)
+![](/profile/01.jpg?raw=true)
+![](/profile/02.jpg?raw=true)
+![](/profile/03.jpg?raw=true)
+![](/profile/04.jpg?raw=true)
+![](/profile/05.jpg?raw=true)
+![](/profile/06.jpg?raw=true)
+![](/profile/07.jpg?raw=true)
+![](/profile/08.jpg?raw=true)
+![](/profile/09.jpg?raw=true)
+![](/profile/10.jpg?raw=true)
+![](/profile/11.jpg?raw=true)
+![](/profile/12.jpg?raw=true)
+![](/profile/13.jpg?raw=true)
+![](/profile/14.jpg?raw=true)
+![](/profile/15.jpg?raw=true)
+![](/profile/16.jpg?raw=true)
 
 ---
 
@@ -123,18 +123,22 @@ Melawy Linux использует в качестве основы Arch Linux, �
 - extra
 - community
 - multilib
+- xhbp
+- xiso
+- xerolinux_repo
+- xerolinux_repo_xl
 - arcolinux_repo
 - arcolinux_repo_xlarge
 - arcolinux_repo_3party
+- cachyos
+- garuda
+- chaotic-aur
+- endeavouros
 - melawy
 - melawy-aur
-- melawy-aur-gui-app
-- melawy-aur-theme
 - melawy-aur-kde
-- melawy-aur-cargo
-- AUR
-
-Не используются специфичные для ArcoLinux программы и оформление.
+- melawy-aur-theme
+- melawy-aur-gui-app
 
 Системные компоненты: 
 - refind
@@ -154,6 +158,7 @@ Melawy Linux использует в качестве основы Arch Linux, �
 - pacman
 - pamac
 - paru
+- yay
 - octopi
 
 Обновление зеркал пакетов: 
@@ -182,6 +187,7 @@ Melawy Linux использует в качестве основы Arch Linux, �
 
 Мультимедиа: 
 - ObsStudio with Browser support
+- Haruna
 - Vlc
 - Mpv
 - Elisa
@@ -192,7 +198,6 @@ Melawy Linux использует в качестве основы Arch Linux, �
 Почта: 
 - Mailspring
 - Thunderbird
-- Kube
 
 При необходимости можно установить:
 - Brave
