@@ -15,14 +15,21 @@ Melawy Linux - это как независимая разработка про�
 ```bash
 sudo pacman-key --recv-keys 95F48000540A4DB146583A47C49B5E77FD80302D --keyserver hkps://keys.openpgp.org
 sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D
+
+sudo pacman-key --recv-keys BC8B600E8DDA1F4CB77B10D2BA803A261A5EE6B8 --keyserver hkps://keys.openpgp.org
+sudo pacman-key --lsign-key BC8B600E8DDA1F4CB77B10D2BA803A261A5EE6B8
 ```
 
 или
 
 ```bash
-sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D --keyserver http://keyserver2.pgp.com
+sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D --keyserver hkps://keyserver.ubuntu.com
 sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D
+
+sudo pacman-key --lsign-key BC8B600E8DDA1F4CB77B10D2BA803A261A5EE6B8 --keyserver hkps://keyserver.ubuntu.com
+sudo pacman-key --lsign-key BC8B600E8DDA1F4CB77B10D2BA803A261A5EE6B8
 ```
+
 
 Вставить в /etc/pacman.d/melawy-linux-mirrorlist 
 следующее содержимое:
