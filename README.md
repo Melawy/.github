@@ -9,9 +9,9 @@ Melawy Linux - это как независимая разработка про�
 Приглашаем энтузиастов для совместной разработки, тестирования программ и оформления.
 
 ---
-
-[![Watch video](https://i3.ytimg.com/vi/gV-4n7IcDdc/maxresdefault.jpg)](https://www.youtube.com/watch?v=gV-4n7IcDdc)
-
+YOUTUBE
+[![Watch video](https://i3.ytimg.com/vi/bRNVm1VIxbA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bRNVm1VIxbA)
+YOUTUBE
 ---
 
 ![](/profile/welcome.jpg)
