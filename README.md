@@ -14,28 +14,23 @@ Melawy Linux - это как независимая разработка про�
 
 ---
 
-![](/profile/01.jpg)
-![](/profile/02.jpg)
-![](/profile/03.jpg)
-![](/profile/04.jpg)
-![](/profile/05.jpg)
-![](/profile/06.jpg)
-![](/profile/07.jpg)
-![](/profile/08.jpg)
-![](/profile/09.jpg)
-![](/profile/10.jpg)
-![](/profile/11.jpg)
-![](/profile/12.jpg)
-![](/profile/13.jpg)
-![](/profile/14.jpg)
-![](/profile/15.jpg)
-![](/profile/16.jpg)
+![](/profile/welcome.jpg)
+![](/profile/slide1.png)
+![](/profile/slide2.png)
+![](/profile/slide3.png)
+![](/profile/slide4.png)
+![](/profile/slide5.png)
+![](/profile/slide6.png)
+![](/profile/slide7.png)
+![](/profile/slide8.png)
 
 ---
 
 Melawy Linux использует в качестве основы Arch Linux, сборку через ArchISO, установку через Calamares. 
 
 Репозитории: 
+- melawy
+- melawy-3party
 - core
 - extra
 - community
@@ -43,8 +38,7 @@ Melawy Linux использует в качестве основы Arch Linux, �
 - arcolinux_repo
 - arcolinux_repo_xlarge
 - arcolinux_repo_3party
-- melawy
-- AUR
+- chaotic
 
 Не используются специфичные для ArcoLinux программы и оформление.
 
@@ -65,14 +59,15 @@ Melawy Linux использует в качестве основы Arch Linux, �
 Пакетные менеджеры: 
 - pacman
 - pamac
-- pikaur
 - octopi
+- paru
+- yay
 
 Обновление зеркал пакетов: 
 - Reflector
-- Reflector simple
 
 Стандартный набор программ: 
+- FreeOffice
 - LibreOffice
 - OnlyOffice
 - Firefox
@@ -94,6 +89,7 @@ Melawy Linux использует в качестве основы Arch Linux, �
 
 Мультимедиа: 
 - ObsStudio with Browser support
+- Haruna
 - Vlc
 - Mpv
 - Elisa
@@ -104,7 +100,6 @@ Melawy Linux использует в качестве основы Arch Linux, �
 Почта: 
 - Mailspring
 - Thunderbird
-- Kube
 
 При необходимости можно установить:
 - Brave
