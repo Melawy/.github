@@ -9,23 +9,61 @@ Melawy Linux - это как независимая разработка про�
 Приглашаем энтузиастов для совместной разработки, тестирования программ и оформления.
 
 ---
+
 YOUTUBE
 [![Watch video](https://i3.ytimg.com/vi/bRNVm1VIxbA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bRNVm1VIxbA)
 YOUTUBE
----
-
-![](/profile/welcome.jpg)
-![](/profile/slide1.png)
-![](/profile/slide2.png)
-![](/profile/slide3.png)
-![](/profile/slide4.png)
-![](/profile/slide5.png)
-![](/profile/slide6.png)
-![](/profile/slide7.png)
-![](/profile/slide8.png)
 
 ---
 
+<table>
+<tr>
+  <td>
+    <a href="https://github.com/Melawy/.github/raw/main/profile/welcome.png" target="_blank"><img src="https://github.com/Melawy/.github/raw/main/profile/welcome.png" height="300"></a>
+  </td>
+  <td>
+    <a href="https://github.com/Melawy/.github/raw/main/profile/slide1.png" target="_blank"><img src="https://github.com/Melawy/.github/raw/main/profile/slide1.png" height="300"></a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/Melawy/.github/raw/main/profile/slide2.png" target="_blank"><img src="https://github.com/Melawy/.github/raw/main/profile/slide2.png" height="300"></a>
+  </td>
+  <td>
+    <a href="https://github.com/Melawy/.github/raw/main/profile/slide3.png" target="_blank"><img src="https://github.com/Melawy/.github/raw/main/profile/slide3.png" height="300"></a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/Melawy/.github/raw/main/profile/slide4.png" target="_blank"><img src="https://github.com/Melawy/.github/raw/main/profile/slide4.png" height="300"></a>
+  </td>
+  <td>
+    <a href="https://github.com/Melawy/.github/raw/main/profile/slide5.png" target="_blank"><img src="https://github.com/Melawy/.github/raw/main/profile/slide5.png" height="300"></a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/Melawy/.github/raw/main/profile/slide6.png" target="_blank"><img src="https://github.com/Melawy/.github/raw/main/profile/slide6.png" height="300"></a>
+  </td>
+  <td>
+    <a href="https://github.com/Melawy/.github/raw/main/profile/slide7.png" target="_blank"><img src="https://github.com/Melawy/.github/raw/main/profile/slide7.png" height="300"></a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="https://github.com/Melawy/.github/raw/main/profile/slide8.png" target="_blank"><img src="https://github.com/Melawy/.github/raw/main/profile/slide8.png" height="300"></a>
+  </td>
+  <td>
+  </td>
+</tr>
+</table>
+
+---
+<details>
+  <summary>Подробнее</summary>
+
+<hr>
+  
 Melawy Linux использует в качестве основы Arch Linux, сборку через ArchISO, установку через Calamares. 
 
 Репозитории: 
@@ -105,3 +143,4 @@ Melawy Linux использует в качестве основы Arch Linux, �
 - Brave
 - Opera
 - WhatsApp
+</details>
