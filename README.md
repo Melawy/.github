@@ -12,8 +12,10 @@ Melawy Linux - дистрибутив операционной системы Li
 
 ---
 
+
+
 VIDEO
-[![Watch video](https://i3.ytimg.com/vi/bRNVm1VIxbA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bRNVm1VIxbA)
+[![Watch video](https://i3.ytimg.com/vi/waCnwyxdSS0/maxresdefault.jpg)](https://www.youtube.com/watch?v=waCnwyxdSS0)
 
 [![Download Melawy Linux](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/melawy-linux/files/latest/download)
 
