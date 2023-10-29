@@ -1,6 +1,6 @@
-![Melawy Linux](/profile/Melawy_Linux_640x320.svg?raw=true)
+![Melawy Linux](/profile/Melawy_Linux_640x320.svg)
 
-Melawy Linux - это как независимая разработка программ и оформления, так и замствование интересных идей. 
+Melawy Linux - дистрибутив операционной системы Linux, основанный на пакетной базе Arch Linux, установщике Calamares, с индивидуально разработанным оформлением под загрузчик rEFInd, экран загрузки Plymouth, менеджер входа в систему SDDM, рабочий стол KDE Plasma. 
 
 Продукт является открытым программным обеспечением со свободной лицензией. 
 
@@ -10,142 +10,75 @@ Melawy Linux - это как независимая разработка про�
 
 ---
 
-Скачать и подписать ключ как доверенный
-
-```bash
-sudo pacman-key --recv-keys 95F48000540A4DB146583A47C49B5E77FD80302D --keyserver hkps://keys.openpgp.org
-sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D
-
-sudo pacman-key --recv-keys BC8B600E8DDA1F4CB77B10D2BA803A261A5EE6B8 --keyserver hkps://keys.openpgp.org
-sudo pacman-key --lsign-key BC8B600E8DDA1F4CB77B10D2BA803A261A5EE6B8
-```
-
-или
-
-```bash
-sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D --keyserver hkps://keyserver.ubuntu.com
-sudo pacman-key --lsign-key 95F48000540A4DB146583A47C49B5E77FD80302D
-
-sudo pacman-key --lsign-key BC8B600E8DDA1F4CB77B10D2BA803A261A5EE6B8 --keyserver hkps://keyserver.ubuntu.com
-sudo pacman-key --lsign-key BC8B600E8DDA1F4CB77B10D2BA803A261A5EE6B8
-```
-
-
-Вставить в /etc/pacman.d/melawy-linux-mirrorlist 
-следующее содержимое:
-
-```
-######################################################
-####                                              ####
-###       Melawy Linux Repository Mirrorlist       ###
-####                                              ####
-######################################################
-#### Entry in file /etc/pacman.conf:
-###    [melawy]
-###    SigLevel = Required DatabaseOptional
-###    Include = /etc/pacman.d/melawy-linux-mirrorlist
-###
-###    [melawy-aur]
-###    SigLevel = Required DatabaseOptional
-###    Include = /etc/pacman.d/melawy-linux-mirrorlist
-###
-###    [melawy-aur-kde]
-###    SigLevel = Required DatabaseOptional
-###    Include = /etc/pacman.d/melawy-linux-mirrorlist
-###
-###    [melawy-aur-theme]
-###    SigLevel = Required DatabaseOptional
-###    Include = /etc/pacman.d/melawy-linux-mirrorlist
-###
-###    [melawy-aur-gui-app]
-###    SigLevel = Required DatabaseOptional
-###    Include = /etc/pacman.d/melawy-linux-mirrorlist
-###
-######################################################
-
-Server = https://github.com/Melawy/$repo-repo/raw/main/$arch/
-```
-
-Добавить в /etc/pacman.conf
-
-```
-[melawy]
-SigLevel = Required DatabaseOptional
-Include = /etc/pacman.d/melawy-linux-mirrorlist
-
-[melawy-aur]
-SigLevel = Required DatabaseOptional
-Include = /etc/pacman.d/melawy-linux-mirrorlist
-
-[melawy-aur-kde]
-SigLevel = Required DatabaseOptional
-Include = /etc/pacman.d/melawy-linux-mirrorlist
-
-[melawy-aur-theme]
-SigLevel = Required DatabaseOptional
-Include = /etc/pacman.d/melawy-linux-mirrorlist
-
-[melawy-aur-gui-app]
-SigLevel = Required DatabaseOptional
-Include = /etc/pacman.d/melawy-linux-mirrorlist
-```
-
-Выполнить
-
-```bash
-sudo pacman -Sy
-sudo pacman -S melawy-linux-mirrorlist melawy-linux-keyring --overwrite="*"
-```
-
----
-### Смотреть видео
-
+YOUTUBE
 [![Watch video](https://i3.ytimg.com/vi/bRNVm1VIxbA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bRNVm1VIxbA)
+YOUTUBE
 
 ---
 
-![](/profile/01.jpg?raw=true)
-![](/profile/02.jpg?raw=true)
-![](/profile/03.jpg?raw=true)
-![](/profile/04.jpg?raw=true)
-![](/profile/05.jpg?raw=true)
-![](/profile/06.jpg?raw=true)
-![](/profile/07.jpg?raw=true)
-![](/profile/08.jpg?raw=true)
-![](/profile/09.jpg?raw=true)
-![](/profile/10.jpg?raw=true)
-![](/profile/11.jpg?raw=true)
-![](/profile/12.jpg?raw=true)
-![](/profile/13.jpg?raw=true)
-![](/profile/14.jpg?raw=true)
-![](/profile/15.jpg?raw=true)
-![](/profile/16.jpg?raw=true)
+<table>
+<tr>
+  <td>
+    <a href="https://raw.githubusercontent.com/Melawy/.github/main/profile/welcome.png" target="_blank"><img src="https://raw.githubusercontent.com/Melawy/.github/main/profile/welcome.png" height="300"></a>
+  </td>
+  <td>
+    <a href="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide1.png" target="_blank"><img src="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide1.png" height="300"></a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide2.png" target="_blank"><img src="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide2.png" height="300"></a>
+  </td>
+  <td>
+    <a href="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide3.png" target="_blank"><img src="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide3.png" height="300"></a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide4.png" target="_blank"><img src="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide4.png" height="300"></a>
+  </td>
+  <td>
+    <a href="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide5.png" target="_blank"><img src="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide5.png" height="300"></a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide6.png" target="_blank"><img src="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide6.png" height="300"></a>
+  </td>
+  <td>
+    <a href="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide7.png" target="_blank"><img src="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide7.png" height="300"></a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide8.png" target="_blank"><img src="https://raw.githubusercontent.com/Melawy/.github/main/profile/slide8.png" height="300"></a>
+  </td>
+  <td>
+  </td>
+</tr>
+</table>
 
 ---
+<details>
+  <summary>Подробнее</summary>
 
+<hr>
+  
 Melawy Linux использует в качестве основы Arch Linux, сборку через ArchISO, установку через Calamares. 
 
 Репозитории: 
+- melawy
+- melawy-3party
 - core
 - extra
 - community
 - multilib
-- xhbp
-- xiso
-- xerolinux_repo
-- xerolinux_repo_xl
 - arcolinux_repo
 - arcolinux_repo_xlarge
 - arcolinux_repo_3party
-- cachyos
-- garuda
-- chaotic-aur
-- endeavouros
-- melawy
-- melawy-aur
-- melawy-aur-kde
-- melawy-aur-theme
-- melawy-aur-gui-app
+- chaotic
+
+Не используются специфичные для ArcoLinux программы и оформление.
 
 Системные компоненты: 
 - refind
@@ -164,15 +97,15 @@ Melawy Linux использует в качестве основы Arch Linux, �
 Пакетные менеджеры: 
 - pacman
 - pamac
+- octopi
 - paru
 - yay
-- octopi
 
 Обновление зеркал пакетов: 
 - Reflector
-- Reflector simple
 
 Стандартный набор программ: 
+- FreeOffice
 - LibreOffice
 - OnlyOffice
 - Firefox
@@ -210,3 +143,4 @@ Melawy Linux использует в качестве основы Arch Linux, �
 - Brave
 - Opera
 - WhatsApp
+</details>
