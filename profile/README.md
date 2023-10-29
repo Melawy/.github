@@ -1,4 +1,6 @@
-![Melawy Linux](/profile/Melawy_Linux_640x320.svg)
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Melawy/.github/main/profile/Melawy_Linux_640x320.svg" target="_blank"><img src="https://raw.githubusercontent.com/Melawy/.github/main/profile/Melawy_Linux_640x320.svg" height="300"></a>
+</p>
 
 Melawy Linux - дистрибутив операционной системы Linux, основанный на пакетной базе Arch Linux, установщике Calamares, с индивидуально разработанным оформлением под загрузчик rEFInd, экран загрузки Plymouth, менеджер входа в систему SDDM, рабочий стол KDE Plasma. 
 
