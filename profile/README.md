@@ -12,9 +12,10 @@ Melawy Linux - дистрибутив операционной системы Li
 
 ---
 
-YOUTUBE
+VIDEO
 [![Watch video](https://i3.ytimg.com/vi/bRNVm1VIxbA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bRNVm1VIxbA)
-YOUTUBE
+
+[![Download Melawy Linux](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/melawy-linux/files/latest/download)
 
 ---
 
@@ -59,6 +60,8 @@ YOUTUBE
   </td>
 </tr>
 </table>
+
+[![Download Melawy Linux](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/melawy-linux/files/latest/download)
 
 ---
 <details>
@@ -145,4 +148,7 @@ Melawy Linux использует в качестве основы Arch Linux, �
 - Brave
 - Opera
 - WhatsApp
+
+<a href="https://sourceforge.net/projects/melawy-linux/files/latest/download"><img alt="Download Melawy Linux" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
 </details>
+
