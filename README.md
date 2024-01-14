@@ -17,7 +17,7 @@ Melawy Linux - дистрибутив операционной системы Li
 VIDEO
 [![Watch video](https://i3.ytimg.com/vi/waCnwyxdSS0/maxresdefault.jpg)](https://www.youtube.com/watch?v=waCnwyxdSS0)
 
-[![Download Melawy Linux](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/melawy-linux/files/latest/download)
+<a href="https://sourceforge.net/projects/melawy-linux/files/" target="_blank"><img alt="Download Melawy Linux" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
 
 ---
 
@@ -63,93 +63,110 @@ VIDEO
 </tr>
 </table>
 
-[![Download Melawy Linux](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/melawy-linux/files/latest/download)
-
----
-<details>
-  <summary>Подробнее</summary>
+<a href="https://sourceforge.net/projects/melawy-linux/files/" target="_blank"><img alt="Download Melawy Linux" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
 
 <hr>
-  
-Melawy Linux использует в качестве основы Arch Linux, сборку через ArchISO, установку через Calamares. 
+<details>
+  <summary>Подробнее</summary>
+<hr>
 
-Репозитории: 
-- melawy
-- melawy-3party
-- core
-- extra
-- community
-- multilib
-- arcolinux_repo
-- arcolinux_repo_xlarge
-- arcolinux_repo_3party
-- chaotic
+<p>Melawy Linux использует в качестве основы Arch Linux, сборку через ArchISO, установку через Calamares.</p>
 
-Не используются специфичные для ArcoLinux программы и оформление.
+<p>Репозитории:</p>
+<ul>
+    <li>melawy</li>
+    <li>melawy-core</li>
+    <li>melawy-3party</li>
+    <li>melawy-archlinux</li>
+    <li>cachyos</li>
+    <li>core</li>
+    <li>extra</li>
+    <li>multilib</li>
+    <li>arcolinux_repo</li>
+    <li>arcolinux_repo_xlarge</li>
+    <li>arcolinux_repo_3party</li>
+    <li>garuda</li>
+    <li>chaotic-aur</li>
+    <li>endeavouros</li>
+</ul>
+<p>Не используются специфичные для ArcoLinux, Garuda Linux, EndeavourOS программы и оформление.</p>
+<p>Системные компоненты:</p>
+<ul>
+    <li>refind</li>
+    <li>systemd-boot</li>
+    <li>grub2</li>
+    <li>linux-cachyos</li>
+    <li>btrfs</li>
+    <li>efi + ukify</li>
+    <li>vmlinuz + initrd</li>
+    <li>dracut</li>
+    <li>systemd 254+</li>
+    <li>timeshift</li>
+    <li>btrfs assistant</li>
+    <li>plymouth</li>
+    <li>sddm</li>
+    <li>kde</li>
+    <li>pipewire</li>
+</ul>
+<p>Пакетные менеджеры:</p>
+<ul>
+    <li>pacman</li>
+    <li>pamac</li>
+    <li>octopi</li>
+    <li>paru</li>
+    <li>yay</li>
+</ul>
+<p>Обновление зеркал пакетов:</p>
+<ul>
+    <li>Reflector</li>
+</ul>
+<p>Стандартный набор программ:</p>
+<ul>
+    <li>FreeOffice</li>
+    <li>LibreOffice</li>
+    <li>OnlyOffice</li>
+    <li>Firefox</li>
+    <li>Firefox Dev</li>
+    <li>Chrome</li>
+    <li>Brave</li>
+    <li>Telegram</li>
+    <li>Discord</li>
+    <li>VS Code</li>
+    <li>Zoom</li>
+    <li>Skype</li>
+    <li>KeePassXC</li>
+    <li>YandexDisk</li>
+    <li>AnyDesk</li>
+</ul>
+<p>Графические редакторы:</p>
+<ul>
+    <li>Gimp</li>
+    <li>InkScape</li>
+    <li>Krita</li>
+</ul>
+<p>Мультимедиа:</p>
+<ul>
+    <li>ObsStudio with Browser support</li>
+    <li>Haruna</li>
+    <li>Vlc</li>
+    <li>Mpv</li>
+    <li>Elisa</li>
+    <li>Audacious</li>
+    <li>Audacity</li>
+    <li>Avidemux</li>
+</ul>
+<p>Почта:</p>
+<ul>
+    <li>Mailspring</li>
+    <li>Thunderbird</li>
+</ul>
+<p>При необходимости можно установить:</p>
+<ul>
+    <li>Opera</li>
+    <li>WhatsApp</li>
+</ul>
 
-Системные компоненты: 
-- refind
-- btrfs
-- efi
-- vmlinuz + initrd
-- ukify
-- dracut
-- systemd 253+
-- timeshift
-- plymouth
-- sddm
-- kde
-- pipewire
-
-Пакетные менеджеры: 
-- pacman
-- pamac
-- octopi
-- paru
-- yay
-
-Обновление зеркал пакетов: 
-- Reflector
-
-Стандартный набор программ: 
-- FreeOffice
-- LibreOffice
-- OnlyOffice
-- Firefox
-- Firefox Dev
-- Chrome
-- Telegram
-- Discord
-- VS Code
-- Zoom
-- Skype
-- KeePassXC
-- YandexDisk
-- AnyDesk
-
-Графические редакторы: 
-- Gimp
-- InkScape
-- Krita
-
-Мультимедиа: 
-- ObsStudio with Browser support
-- Haruna
-- Vlc
-- Mpv
-- Elisa
-- Audacious
-- Audacity
-- Avidemux
-
-Почта: 
-- Mailspring
-- Thunderbird
-
-При необходимости можно установить:
-- Brave
-- Opera
-- WhatsApp
-
-<a href="https://sourceforge.net/projects/melawy-linux/files/latest/download"><img alt="Download Melawy Linux" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
+<p>
+<a href="https://sourceforge.net/projects/melawy-linux/files/" target="_blank"><img alt="Download Melawy Linux" src="https://a.fsdn.com/con/app/sf-download-button" width=276 height=48 srcset="https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"></a>
+</p>
 </details>
